@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import CardList from "./CardList";
+import { type } from "@testing-library/user-event/dist/type";
 
 function Home() {
   const [pokemons, setPokemons] = useState([]);
@@ -44,12 +46,14 @@ function Home() {
           <button onClick={"searchPokemon"}>Search</button>
         </div>
         <div class='home-container'>
-          {pokemons.map(({ img, name }) => (
-            <div class='home-card'>
-              <img src={img} alt={name} />
-              <h2>{name}</h2>
-              <button>Details</button>
-            </div>
+          {pokemons.map((pokemon, index) => (
+            <CardList
+              id={pokemon.id}
+              name={pokemon.name}
+              image={pokemon.sprites.front_default}
+              type={pokemon.types[0].type.name}
+              key={index}
+            />
           ))}
         </div>
       </section>
