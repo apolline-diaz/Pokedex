@@ -27,7 +27,7 @@ function Home() {
         );
         const data = await res.json();
         setPokemons((currentList) => [...currentList, data]);
-        // await console.log(pokemons);
+        // développer le ...currentList
       });
     }
     createPokemonObject(data.results);
@@ -44,6 +44,7 @@ function Home() {
         <div class='searchbar'>
           <input type='text' placeholder='Enter a name' onChange={""}></input>
           <button onClick={"searchPokemon"}>Search</button>
+          {/* composant searchbar à ajouter ici*/}
         </div>
         <div class='home-container'>
           {pokemons.map((pokemon, index) => (

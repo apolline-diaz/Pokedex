@@ -13,7 +13,27 @@ body {
   align-items: center;
 }
 
-.header,
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.home-btn a {
+  color: white;
+  text-decoration: none;
+}
+
 .home,
 .card {
   max-height: 600px;
@@ -25,15 +45,6 @@ body {
   margin: 1rem;
   background-color: rgb(255, 255, 255);
   border-radius: 2rem;
-}
-
-.header h1 {
-  padding: 1rem;
-  font-size: 2rem;
-}
-.home-btn a {
-  color: white;
-  text-decoration: none;
 }
 
 .home-title {
