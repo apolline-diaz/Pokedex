@@ -8,6 +8,8 @@ Dans ce projet, vous pourrez utilisez :
 
 ### Une page d'accueil avec la liste des Pokemons
 
+![alt text](public/assets/pokedex_screenshot.png)
+
 Lorsque vous ouvrez l'application, vous entrez dans la page d'accueil.
 Vous pouvez déjà découvrir une liste limitée de Pokémons.
 

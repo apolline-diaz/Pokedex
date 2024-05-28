@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 // const pokeAPI = "https://pokeapi.co/api/v2/pokemon/";
 
-function Card() {
+function PokemonCard() {
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonChosen, setPokemonChosen] = useState(false);
   const [pokemon, setPokemon] = useState({
@@ -89,4 +89,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default PokemonCard;
