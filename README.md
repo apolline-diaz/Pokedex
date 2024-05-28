@@ -18,12 +18,12 @@ Il apparaitra alors sur la page. Vous souhaitez en apprendre plus sur lui? Cliqu
 
 ### Une page de carte Pokemon
 
-Lorsque vous cliquez sur "Détails", vous êtes directement redirigés vers la carte du Pokémon.
-Dedans, vous y trouverez différentes informations propres au Pokémon.
+![alt text](<Capture d'écran 2024-05-29 005832.png>)
 
-Pour revenir sur la page d'acceuil et voir plus de Pokémons, cliquez sur le bouton "Home".
+Lorsque vous cliquez sur "Détails", vous êtes directement redirigé vers la carte du Pokémon.
+Dedans, vous y trouverez différentes informations propres au Pokémon.
 
 ## Projet en cours
 
 Ce projet est en cours de développement.
-Vous pouvez pour l'instant découvrir une liste de Pokemon. La page de "Détails" est en construction.
+Vous pouvez pour l'instant découvrir une liste de Pokemon, en utilisant la barre de recherche et découvrir la carte des pokémons.

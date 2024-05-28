@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function PokemonList({ results }) {
@@ -12,9 +12,10 @@ function PokemonList({ results }) {
           <div key={index}>
             <h2>{upperCase(result.name)}</h2>
             <img src={result.img} alt={result.name} />
-            <button class='btn'>
-              <Link to='/pokemon'>Details</Link>
-            </button>{" "}
+
+            <Link to={`/pokemon/${result.name}`}>
+              <button class='btn'>Details</button>
+            </Link>
           </div>
         </div>
       ))}

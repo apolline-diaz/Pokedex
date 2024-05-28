@@ -1,8 +1,7 @@
 import React from "react";
-import Home from "./components/Home";
-import PokemonCard from "./components/PokemonCard";
+import Pokedex from "./components/Pokedex";
+import Pokemon from "./components/Pokemon";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
 import { Routes, Route } from "react-router-dom";
 import "./index.css";
 
@@ -11,11 +10,8 @@ function App() {
     <div className='App'>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/pokemon/' element={<PokemonCard />} />
-        <Route path='/searchbar/' element={<SearchBar />} />
-
-        {/* <Route path='/pokemon/:id' element={<Card />} /> */}
+        <Route path='/' element={<Pokedex />} />
+        <Route path='/pokemon/:name' element={<Pokemon />} />
       </Routes>
     </div>
   );

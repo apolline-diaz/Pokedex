@@ -26,9 +26,11 @@ const Searchbar = ({ setResults }) => {
               type: data.types[0].type.name,
               species: data.species.name,
               img: data.sprites.front_default,
-              hp: data.stats[0].base_stat,
-              attack: data.stats[1].base_stat,
-              defense: data.stats[2].base_stat,
+              hp: data.stats.find((stat) => stat.stat.name === "hp").base_stat,
+              attack: data.stats.find((stat) => stat.stat.name === "attack")
+                .base_stat,
+              defense: data.stats.find((stat) => stat.stat.name === "defense")
+                .base_stat,
             };
           })
         );

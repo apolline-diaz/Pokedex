@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import PokemonList from "./PokemonList";
 
-function Home() {
+function Pokedex() {
   const [results, setResults] = useState([]);
 
   return (
@@ -15,4 +15,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Pokedex;
