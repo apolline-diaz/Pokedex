@@ -7,16 +7,16 @@ function PokemonCard({ result }) {
 
   return (
     <>
-      <div class='card-container'>
+      <div class='pokemoncard-container'>
         <h1>{result.name}</h1>
         <img src={result.img} />
-        <div class='card-details'>
+        <div class='pokemoncard-details'>
           <p>
             Species<span>{result.species}</span>
           </p>
-          <p>
+          {/* <p>
             HP<span>{result.hp}</span>
-          </p>
+          </p> */}
           <p>
             Attack<span>{result.attack}</span>
           </p>

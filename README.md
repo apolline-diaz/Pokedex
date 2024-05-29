@@ -8,17 +8,17 @@ Dans ce projet, vous pourrez utilisez :
 
 ### Une page d'accueil avec la liste des Pokemons
 
-![alt text](public/assets/pokedex_screenshot.png)
+![alt text](public/assets/screenshot_1.png)
 
 Lorsque vous ouvrez l'application, vous entrez dans la page d'accueil.
 Vous pouvez déjà découvrir une liste limitée de Pokémons.
 
 Si vous en cherchez un en particulier, vous pouvez taper le nom dans la barre de recherche pour le trouver.
-Il apparaitra alors sur la page. Vous souhaitez en apprendre plus sur lui? Cliquez sur "Détails".
+Il apparaitra alors sur la page. Vous souhaitez en apprendre plus sur lui? Cliquez sur l'image.
 
 ### Une page de carte Pokemon
 
-![alt text](<Capture d'écran 2024-05-29 005832.png>)
+![alt text](public/assets/screenshot_2.png)
 
 Lorsque vous cliquez sur "Détails", vous êtes directement redirigé vers la carte du Pokémon.
 Dedans, vous y trouverez différentes informations propres au Pokémon.

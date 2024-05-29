@@ -6,9 +6,9 @@ function Pokedex() {
   const [results, setResults] = useState([]);
 
   return (
-    <section className='home'>
+    <section className='pokedex'>
       <SearchBar setResults={setResults} />
-      <div className='home-container'>
+      <div className='pokemonlist-container'>
         <PokemonList results={results} />
       </div>
     </section>

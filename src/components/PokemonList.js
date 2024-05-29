@@ -8,15 +8,11 @@ function PokemonList({ results }) {
   return (
     <>
       {results.map((result, index) => (
-        <div className='home-card'>
-          <div key={index}>
-            <h2>{upperCase(result.name)}</h2>
+        <div className='pokemonlist-card' key={index}>
+          <Link to={`/pokemon/${result.name}`}>
             <img src={result.img} alt={result.name} />
-
-            <Link to={`/pokemon/${result.name}`}>
-              <button class='btn'>Details</button>
-            </Link>
-          </div>
+          </Link>
+          <p>{upperCase(result.name)}</p>
         </div>
       ))}
     </>

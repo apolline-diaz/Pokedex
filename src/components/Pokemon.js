@@ -44,10 +44,12 @@ function Pokemon() {
   console.log(setResults);
 
   return (
-    <div className='card'>
+    <section className='pokedex'>
       <SearchBar setResults={setResults} />
-      <PokemonCard result={selectedPokemon} />
-    </div>
+      <div className='pokemon-container'>
+        <PokemonCard result={selectedPokemon} />
+      </div>
+    </section>
   );
 }
 
