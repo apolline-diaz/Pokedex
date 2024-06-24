@@ -33,4 +33,4 @@ Cliquez sur un pokémon pour découvrir ses attributs.
 
 Pour revenir à la barre de recherche, il suffit de cliquer à nouveau sur "Pokédex".
 
-![alt text](public/assets/pokedex-3.png)
+![alt text](public/assets/pokedex-1.png)
