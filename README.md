@@ -10,7 +10,7 @@ Encyclopédie numérique qui recense les créatures de l'univers Pokémon, avec 
 
 - Recherche par nom
 - Catalogue de Pokémons
-- Fiche détaillée du Pokémons
+- Fiche détaillée du Pokémon
 
 ## Technologies
 
