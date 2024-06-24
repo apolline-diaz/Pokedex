@@ -8,15 +8,17 @@ function PokemonCard({ result }) {
   return (
     <>
       <div class='pokemoncard-container'>
-        <h1>{result.name}</h1>
+        <p>{result.id}</p>
         <img src={result.img} />
+        <h1>{result.name}</h1>
+        <h4>
+          {result.type}/{result.species}
+        </h4>
         <div class='pokemoncard-details'>
           <p>
-            Species<span>{result.species}</span>
-          </p>
-          {/* <p>
             HP<span>{result.hp}</span>
-          </p> */}
+            <div class='bar'></div>
+          </p>
           <p>
             Attack<span>{result.attack}</span>
           </p>
@@ -24,7 +26,7 @@ function PokemonCard({ result }) {
             Defense<span>{result.defense}</span>
           </p>
           <p>
-            Type<span>{result.type}</span>
+            Speed<span>{result.speed}</span>
           </p>
         </div>
       </div>
