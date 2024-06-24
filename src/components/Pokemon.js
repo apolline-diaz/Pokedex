@@ -47,10 +47,8 @@ function Pokemon() {
     fetchPokemonDetails();
   }, [name]);
 
-  console.log(setResults);
-
   return (
-    <section className='pokedex'>
+    <section className='pokemon'>
       {/* <SearchBar setResults={setResults} /> */}
       <div className='pokemon-container'>
         <PokemonCard result={selectedPokemon} />
