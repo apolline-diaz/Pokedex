@@ -1,29 +1,32 @@
-# Pokedex App
+# Pokédex
 
-Voici une application Pokedex qui permet de découvrir les Pokemons avec leurs spécificités.
+![alt text](public/assets/pokedex-2.png)
 
-## Fonctions disponibles
+Encyclopédie numérique qui recense les créatures de l'univers Pokemon, avec leurs attributs.
 
-Dans ce projet, vous pourrez utilisez :
+## Fonctions
 
-### Une page d'accueil avec la liste des Pokemons
+![alt text](public/assets/pokedex-3.png)
 
-![alt text](public/assets/screenshot_1.png)
+- Recherche par nom
+- Fiche détaillée du Pokemon
 
-Lorsque vous ouvrez l'application, vous entrez dans la page d'accueil.
-Vous pouvez déjà découvrir une liste limitée de Pokémons.
+## Technologies
 
-Si vous en cherchez un en particulier, vous pouvez taper le nom dans la barre de recherche pour le trouver.
-Il apparaitra alors sur la page. Vous souhaitez en apprendre plus sur lui? Cliquez sur l'image.
+- HTML
+- CSS
+- JavaScript
 
-### Une page de carte Pokemon
+## Utilisation
 
-![alt text](public/assets/screenshot_2.png)
+Essayez l'application en suivant ce lien :
 
-Lorsque vous cliquez sur "Détails", vous êtes directement redirigé vers la carte du Pokémon.
-Dedans, vous y trouverez différentes informations propres au Pokémon.
+https://apolline-diaz.github.io/Pokedex/
 
-## Projet en cours
+Cliquez sur le titre "Pokédex", une barre de recherche apparait !
+Entrez le nom de votre pokemon ou un mot et explorez le catalogue.
+Cliquez sur un pokemon pour découvrir ses attributs.
 
-Ce projet est en cours de développement.
-Vous pouvez pour l'instant découvrir une liste de Pokemon, en utilisant la barre de recherche et découvrir la carte des pokémons.
+Pour revenir à la barre de recherche, il suffit de cliquer à nouveau sur "Pokédex".
+
+![alt text](public/assets/pokedex-3.png)
