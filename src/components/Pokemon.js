@@ -45,7 +45,7 @@ function Pokemon() {
 
   return (
     <section className='pokedex'>
-      <SearchBar setResults={setResults} />
+      {/* <SearchBar setResults={setResults} /> */}
       <div className='pokemon-container'>
         <PokemonCard result={selectedPokemon} />
       </div>
